@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #212529;
+}
+
+.header {
+  margin: 12px 32px 32px 32px;
+
+  display: flex;
+  align-content: center;
+  border: 1px solid green;
+}
+.logo {
+  height: 74px;
+  flex: 4 1 0;
+}
+
+.menu {
+  flex: 1 1 0;
+}
+
+.menu-item {
+  list-style-type: none;
+}
+
+.menu-link {
+  text-decoration: none;
+}
+
+.phone {
+  color: #212529;
+  text-decoration: none;
+}
+
+.hero {
+  margin: 0 32px;
+  padding: 0 15px;
+  border: 1px solid green;
+
+  display: flex;
+  align-content: center;
+}
+
+.text {
+  text-transform: uppercase;
+  height: 258px;
+  font-size: 72px;
+}
